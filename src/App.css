@@ -1,0 +1,63 @@
+.App {
+    margin: 10px;
+}
+
+.searchDiv label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(125, 15, 15);
+    background-color: antiquewhite;
+
+
+}
+
+.searchDiv {
+    border-width: 10px;
+    border-radius: 10px
+}
+
+
+.searchDiv form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+
+}
+
+.searchDiv input {
+    border-radius: 5px;
+    background-color: rgb(125, 15, 15);
+    color: antiquewhite;
+    width: 89%;
+
+}
+
+.imageList {
+    columns: 250px 5;
+}
+
+.imageListImg {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.searchDiv .icon {
+    position: center;
+    right: 10px;
+    top: 10px;
+    color: black;
+    background: none;
+    border: none;
+    font-size: 15px;
+
+}
+
+.searchDiv .icon :hover {
+    cursor: pointer;
+}
